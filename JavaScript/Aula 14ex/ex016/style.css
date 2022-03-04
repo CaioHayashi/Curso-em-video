@@ -1,0 +1,53 @@
+body {
+    font: normal 15pt Arial;
+    color: #414141;
+    background-image: linear-gradient(90deg, #d63c7c80, #b23cd680, #1b3c9680);
+
+}
+
+header {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h1 {
+    padding: 0;
+}
+
+h2{
+    color: #ffffff;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+
+#dados {
+    text-align: center
+
+}
+
+
+
+#button {
+    background-image: linear-gradient(90deg, #d63c7c, #b23cd6, #3c65d6);
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+

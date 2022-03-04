@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'work Sans';
+            /*
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc (px que iremos usar)
+
+            Medidas relativas:
+            em, ex, rem, vw, vh, % (em a que vamos usar)
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight:400;
+            font-style: italic;
+            /*
+            (lighter, normal, bold, bolder)
+            (wheight, width, height)
+            */
+        }
+        h1 {
+            /*
+            font-family: 'work sans';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            shorthand font
+            
+            font-style -> font-weight -> font- size -> font family
+            */
+            font: italic bolder 3em 'work sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1> 
+    <h2>Título do Exercício</h2>   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nemo fugit iste nam. Magni quo soluta harum, ab ipsa aliquid. Eius consequuntur tenetur distinctio rem. Earum tempore impedit magnam quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deserunt consectetur nobis esse voluptates asperiores dolorem, quis culpa modi non sed molestias autem magnam alias adipisci iste impedit similique possimus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt quas a voluptate veniam voluptates magni illum doloremque, magnam illo tempore libero obcaecati ratione! Ducimus enim veritatis id iste fugit.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad blanditiis odit laboriosam. Maiores possimus, commodi fuga ut nemo dicta explicabo blanditiis enim fugiat corrupti fugit nobis sint, optio beatae? Cum!</p>
+</body>
+</html>

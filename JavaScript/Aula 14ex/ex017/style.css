@@ -1,0 +1,65 @@
+body {
+    background-color: #242424;
+    font: normal 15pt Arial;
+    margin: 0;
+    height: 100vh;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    
+    background-color: #b3b7c0;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 255, 227, 0.808);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#seltab {
+    overflow: hidden;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); 
+    border-color: white;
+}
+
+input, #seltab {
+    border: 0 none;
+    outline: none;
+}
+
+#button {
+    color: #303030;
+    border: none;
+    padding: 8px;
+    background-image: linear-gradient(#fdf03b ,#fdd93b);
+    border-radius: 15px;
+    font-weight: bold;
+}

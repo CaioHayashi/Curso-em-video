@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        body {
+            font: normal 2rem arial;
+            color: white;
+            text-align: center;
+            background-image: url(imag/xps-4TBSG2Oqu0Q-unsplash.jpg);
+            background-size: cover;
+        }
+        section {
+            background-color: #3363c928;
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%,-50%);
+            width: 600px;
+            height: 300px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: rgb(54, 54, 54) 3px 3px 10px;
+        }
+
+        input {
+            padding: 10px;
+            border: none;
+            box-shadow: black 3px 3px 10px;
+            margin-bottom: 40px;
+            width: 200px;
+        }
+
+        #botao{
+            background-color: #5B7AF0;
+            font-weight: bold;
+            color: white;
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Somando Valores</h1>
+            <input type="number" name="txtn1" id="txt1"> +
+            <input type="number" name="txtn2" id="txt2">
+            <input id="botao" type="button" value="SOMAR" onclick="somar()">
+            
+            <div id="res">Resultado</div>
+        </div>
+    </section>
+
+    <script>
+
+        function somar() {
+            var txtn1 = window.document.getElementById('txt1')
+            var txtn2 = window.document.getElementById('txt2')
+            var res = window.document.getElementById('res')
+
+            var n1 = Number(txtn1.value)
+            var n2 = Number(txtn2.value)
+            var s = n1 + n2
+
+            res.innerHTML = `A soma entre <strong>${n1}</strong> e <strong>${n2}</strong> é igual a <strong>${s}</strong>`
+        }
+
+    </script>
+</body>
+</html>
