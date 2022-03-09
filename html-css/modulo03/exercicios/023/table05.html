@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        td, th {
+            border: 1px solid rgb(75, 75, 75);
+            padding: 10px;
+        }
+
+        table > colgroup > col.nome {
+            background-color: aliceblue;
+
+        }
+
+        .azul {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        
+         <colgroup>            <!--NOVIDADE -->
+            <col class="nome">
+            <col class="azul" span="3"> 
+        </colgroup>
+
+
+        <caption>tabela da galera</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Idade</th>
+                <th>Genero</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aaron</td>
+                <td>23</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Abel</td>
+                <td>24</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Abelardo</td>
+                <td>78</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Abigail</td>
+                <td>54</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Abner</td>
+                <td>34</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Abraão
+                </td>
+                <td>64</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Acácia</td>
+                <td>87</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Ada</td>
+                <td>77</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Adail</td>
+                <td>56</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Adalberta</td>
+                <td>34</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
