@@ -18,11 +18,19 @@
         padding: 10px;
         background-color: lightgray;
     }
-    table {
 
+    table {
         width: 600px;
         border-collapse: collapse;
     }
+
+    /* cabeçalho fixo */
+    thead > tr > th {
+        position: sticky;
+        top: -01%;
+        background-color: rgb(49, 49, 49);;
+    }
+
 
     td, th{
         border: 1px solid black;
